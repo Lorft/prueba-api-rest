@@ -1,0 +1,25 @@
+{
+  "name": "prueba-api-rest",
+  "version": "1.0.0",
+  "description": "Prueba de ejemplo de API REST con Nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "servor": "4.0.2",
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.18.2",
+    "zod": "3.22.4"
+  }
+}
