@@ -20,10 +20,10 @@ const movieSchema = z.object({
   rate: z.number().min(0).max(10).default(5)
 })
 
-export function validateMovie(object) {
+export function validateMovie (object) {
   return movieSchema.safeParse(object)
 }
 
-export function validatePartialMovie(object) {
+export function validatePartialMovie (object) {
   return movieSchema.partial().safeParse(object)
 }
